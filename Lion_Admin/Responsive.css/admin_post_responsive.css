@@ -1,0 +1,151 @@
+
+/*--------Header Section ---------*/
+@media(max-width:1165px){
+
+    .header-middle ul li {
+        padding: 53px 16px;
+    }
+}
+@media(max-width:1065px){
+    
+    .header-middle ul li {
+        padding: 53px 9px;
+    }
+}
+@media(max-width:991px){
+
+    .logo_img{
+        margin-left: 0px;
+    }
+    .bar_1{
+        background: #cd211d;
+        position: absolute;
+        right: 16px;
+        width: 42px;
+        height: 42px;
+        transition: 0.4s;
+    }
+    .bar_1:hover{
+        background: white;
+        color: #cd211d;
+    }
+    .bar_1 span:hover{
+        color: #cd211d;
+    }
+    
+    .bar_1 span{
+        margin-left: -3px;
+        font-size: 26px;
+        color: white;
+    }
+    .header-middle {
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 118px;
+    bottom: auto;
+    width: 280px;
+    }
+    .header-middle ul li .dropdown_item {
+        margin-top: 10px;
+    }
+    .header-middle{
+        margin-top: -3px;
+    }
+
+    .header-middle ul li {
+        padding: 11px 9px;
+    }
+    .dropdown_item{
+        background: rgb(126, 101, 101);
+    }
+    .dropdown_item a:hover{
+        background: white;
+    }
+   
+
+    .triangle_up {
+        visibility: hidden;
+    }
+    .dropdown_item a {
+        padding: 12px 20px;
+        margin: 18px 0px 18px 0px;
+        transition: 0.4s;
+        color: black !important;
+    }
+
+    .header_right{
+        position: absolute;
+        right: 0;
+        margin-right: 100px;
+    }
+    .form_box {
+        position: absolute;
+        right: -101px;
+        bottom: -109px;
+        z-index: -1;
+    }
+}
+
+@media(max-width:575px){
+    
+    .form_box {
+        right: -96px;
+        bottom: -101px;
+    }
+    .form_box input {
+        padding: 2px 11px;
+        width: 238px;
+    }
+}
+
+@media(max-width:500px){
+
+    .logo_img {
+    margin-left: -4px;
+    }
+    .header_right {
+        margin-right: 77px;
+    }
+    .header-middle {
+        width: 240px;
+    }
+    .dropdown_item a {
+        padding: 10px 20px;
+    }
+    .form_box {
+        right: -75px;
+    }
+    .form_box input {
+        padding: 2px 11px;
+        width: 240px;
+    }
+   
+}
+
+@media(max-width:400px){
+
+    .header-middle {
+        width: 225px;
+    }
+    .form_box {
+        right: -69px;
+    }
+    .form_box input {
+        padding: 2px 11px;
+        width: 160px;
+    }
+   
+}
+@media(max-width:375px){
+
+    .form_box {
+        right: -75px;
+    }
+    .form_box input {
+        padding: 2px 11px;
+        width: 230px;
+    }
+   
+}
+

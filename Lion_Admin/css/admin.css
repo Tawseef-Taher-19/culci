@@ -1,0 +1,322 @@
+/* Bismillahir Rahmanir Rahim */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* admin login page : index.php */
+
+
+.admin_login{
+    width: 44%;
+    height: 658px;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+.admin_login_top{
+    width: 100%;
+    height: 176px;
+    box-shadow: 1px 1px 1px 1px bisque;
+}
+.admin_login_top_img{
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    margin-left: 207px;
+}
+.admin_login_top_img img{
+    width: 100%;
+    height: 100%;
+}
+.admin_login_down{
+    margin-top: 14px;
+    background: #fafafa;
+    box-shadow: 0px 1px 5px 1px #ddd;
+    overflow: hidden;
+    height: 61%;
+}
+.admin_login_down h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.admin_login_down form{
+    padding: 27px 60px 35px 66px;
+    margin: 19px 60px 36px 65px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 1px 10px 0px #ddd;
+}
+.admin_login_down form label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* admin post page */
+
+
+  /* header  */
+.admin_header{
+    width: 100%;
+    height: 98px;
+   background: black;
+}
+.admin_header_left{
+    float: left;
+}
+.admin_header_left_img{
+    width: 100%;
+    height: 86px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.admin_header_left_img img{
+    width: 100%;
+    height: 100%;
+}
+.admin_header_mid{
+    float: left;
+    margin-left: 435px;
+}
+.admin_header_mid h2{
+    color: white;
+    margin-top: 25px;
+    margin-left: 22px;
+    font-weight: 700;
+}
+.admin_header_right{
+    float: right;
+}
+.admin_header_right_btn{
+    width: 148px;
+    height: 43px;
+    background: red;
+    margin-top: 28px;
+    margin-right: 45px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.admin_header_right_btn a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.admin_header_right_btn:hover{
+    background: blue;
+    transition: 0.4s;
+}
+
+/* admin post content */
+
+
+
+
+/* header */
+
+.crud{
+    width: 95%;
+    height: auto;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-left: 36px;
+    margin-top: 40px;
+}
+.crud_1{
+    height: 580px;
+}
+.crud_2{
+    height: 930px;
+}
+.crud_header{
+    width: 100%;
+    height: 70px;
+    background: #acbf8e;
+}
+.crud_header h1{
+    font-size: 37px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 409px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* menu */
+.crud_menu{
+    width: 100%;
+    height: 40px;
+    background: #464141;
+}
+.crud_menu ul{
+    list-style: none;
+}
+.crud_menu ul li{
+    display: inline-block;
+    padding: 7px 39px 3px 3px;
+}
+.crud_menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+.crud_menu ul li a:hover{
+    color: hotpink;
+}
+
+/* crud BTN */
+
+.crud_btn{
+    width: 100%;
+    height: 115px;
+}
+.crud-btn-left{
+    float: left;
+}
+.crud-btn-left h2{
+    margin-left: 42px;
+    margin-top: 22px;
+    font-size: 37px;
+    color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.crud-btn-right{
+    width: 148px;
+    height: 43px;
+    background: red;
+    margin-top: 28px;
+    margin-right: 45px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    float: right;
+}
+.crud-btn-right:hover{
+    background: black;
+    transition: 0.4S;
+}
+.crud-btn-right a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* crud table */
+
+.crud_table{
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 10px 1px #ddd;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.crud-h2-left{
+    float: left;
+    margin-bottom: 13px;
+    margin-left: 23px;
+}
+.crud_table h2{
+    text-align: center;
+    margin: 25px 134px 25px 1px;
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #49a949;
+}
+ /*   Form */
+.crud_form{
+    width: 94%;
+    margin-left: 11%;
+}
+.crud_form h2{
+    text-align: center;
+    margin: 25px 252px -18px 1px;
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #49a949;
+}
+.crud_form form{
+    width: 70%;
+    margin-left: 6%;
+    margin-top: 5%;
+    border: 1px solid #ddd;
+    padding: 55px;
+    height: 450px;
+    box-shadow: 1px 1px 10px 1px #ddd;
+    border-radius: 10px;
+    margin-bottom: 57px;
+}
+.crud_form form label{
+    font-weight: 500;
+}
+
+.admin_post_pagination{
+    width: 100%;
+    margin-top: 45px;
+    height: 78px;
+}
+.admin_post_pagination ul{
+    margin-left: 30%;
+}
+.admin_post_pagination ul li{
+    padding-left: 31px;
+}
+.crud_span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.admin_post_pagination ul li a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+/*    Category  */
+
+/*  Progress bar  */
+
+
+.pagination{
+    margin-top: 38px;
+    text-align: center;
+    transition: 0.8s;
+}
+.pagination nav{}
+.pagination nav ul{
+    margin-left: 127%;
+}
+.pagination nav ul li{
+    padding: 9px;
+}
+.pagination nav ul li a{
+    color: white;
+    background: blue;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.pagination nav ul li a:hover{
+    color: white;
+    background: black;
+    transition: 0.4;
+}
+
+
+
+
+

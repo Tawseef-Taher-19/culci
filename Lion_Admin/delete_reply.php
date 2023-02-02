@@ -1,0 +1,13 @@
+<?php
+
+include "function.php";
+include_once "admin_detected.php";
+$comment_del = new lion();
+
+if ($_GET['status'] == 'delete') {
+
+
+    //echo $_GET['id'];
+
+    $comment_del->replyDelete($_GET['id']);
+}

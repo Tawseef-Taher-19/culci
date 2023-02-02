@@ -1,0 +1,48 @@
+/*---------Bismillahir Rahamanir Rahim---------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,p,span,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+/* Admin Section */
+
+.admin{
+    margin-top: 50px;
+}
+.admin_row_up{
+    width: 20%;
+    padding: 0px 20px;
+    margin-bottom: 60px;
+}
+.admin_inner_up{
+    width: 60%;
+}
+.admin_inner_up img{
+    width: 100%;
+}
+.admin_row_down{
+    box-shadow: 0px 0px 60px 0px #e9e9e9;
+}
+.admin_inner_down{
+    padding: 60px 60px;
+}
+.admin_inner_down h2{
+    text-align: center;
+    font-family: "Impact", Times, serif;
+    letter-spacing: 5px;
+}
+.admin_inner_down form{}
+.admin_inner_down form label{
+    letter-spacing: 1px;
+    font-family: "Constantia", Times, serif;
+    font-size: 17px;
+}
+.admin_inner_down form input{}

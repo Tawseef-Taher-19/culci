@@ -1,0 +1,42 @@
+/* Bishmillahir Rahamanir Rahim */
+
+@media(max-width:975px){
+
+    .h_2{
+        opacity: 0;
+    }
+    .image_unique_inner {
+        width: 70%;
+    }
+   
+}
+
+
+@media(max-width:575px){
+
+    .Gallery_row {
+       width: 50%;
+    }
+    .h_1{
+        opacity: 0;
+    }
+    .image_unique_inner {
+        width: 90%;
+    }
+   
+}
+
+@media(max-width:375px){
+
+    .Gallery_row {
+       width: 80%;
+    }
+}
+
+@media(max-width:320px){
+
+    .Gallery_row {
+       width: 90%;
+    }
+   
+}

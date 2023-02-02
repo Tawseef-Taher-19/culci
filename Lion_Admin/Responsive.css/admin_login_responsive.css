@@ -1,0 +1,27 @@
+/*---------Bismillahir Rahamanir Rahim---------*/
+
+
+/* Admin Section */
+
+@media(max-width:767px){
+    .admin_row_up {
+        width: 30%;
+    }
+    .admin_inner_up {
+        width: 80%;
+    }
+    .admin_inner_down {
+        padding: 35px 30px;
+    }
+}
+@media(max-width:425px){
+    .admin_row_up {
+        width: 33%;
+    }
+    .admin_inner_up {
+        width: 100%;
+    }
+    .admin_inner_down {
+        padding: 35px 30px;
+    }
+}
